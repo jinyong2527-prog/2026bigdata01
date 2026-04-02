@@ -1,4 +1,3 @@
-import pandas as pd
-scores = [100, 97, 88, 91]
-average = pd.Series(scores).min()
-print(average)
+# import ticket
+
+humans=int(input("몇 명? "))
