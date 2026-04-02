@@ -1,4 +1,4 @@
-def entrance_fee(ages) -> int:
+def entrance_fee(ages:list) -> int:
     """
     Calculates the admission fee for the amusement park.
     :parameters :
@@ -13,5 +13,6 @@ def entrance_fee(ages) -> int:
             total_fee = total_fee + senior
         elif age >=19:
             total_fee=total_fee+adult
-        elif age >=19:
+        else:
             total_fee=total_fee+kid
+    return total_fee
